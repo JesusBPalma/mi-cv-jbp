@@ -1,29 +1,93 @@
-.identificacion h1 {
-  font-family: "Muli", sans-serif;
-  font-size: 30px;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+    circle at 50% -20.71%,
+    #b3d462 0,
+    #a0d167 8.33%,
+    #8ccd6c 16.67%,
+    #76c671 25%,
+    #5fbc75 33.33%,
+    #48b176 41.67%,
+    #2ea376 50%,
+    #0c9574 58.33%,
+    #008973 66.67%,
+    #007f72 75%,
+    #007671 83.33%,
+    #006f71 91.67%,
+    #006a72 100%
+  );
+}
+header {
+  text-align: left;
+  margin-top: 4%;
+  margin-left: 15%;
+}
+.datos h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 55px;
+  color: #2f1c6a;
+  padding-left: 50px;
+  text-align: center;
+}
+.datos h2 {
+  font-family: "Londrina Solid", cursive;
+  font-size: 38px;
   color: #2f1c6a;
   text-align: center;
 }
-.identificacion h2 {
-  font-family: "Muli", sans-serif;
-  font-size: 25px;
-  color: #010005;
-  text-align: center;
-}
-.identificacion {
-  display: flex;
-  justify-content: center;
-  padding: 80px;
-}
 .datos {
-  padding: 100px;
-}
-.carrera {
-  text-align: center;
-  padding: 1px;
+  display: inline-block;
+  height: 100px;
+  width: 900px;
 }
 .foto {
-  height: 300px;
+  display: inline-block;
+  padding-left: 100px;
+  padding-bottom: 9%;
+}
+.foto img {
   width: 250px;
-  border-radius: 50%;
+  height: 300px;
+  border-radius: 250px;
+}
+h2 {
+  color: #2f1c6a;
+  font-family: "Bungee Shade", cursive;
+  font-size: 45px;
+  padding-left: 5%;
+}
+p,
+a,
+h3 {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-size: 40px;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 8%;
+  text-decoration: none;
+}
+.education p {
+  padding-bottom: 50px;
+}
+h4 {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-size: 38px;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 8%;
+  text-decoration: none;
+}
+li {
+  color: white;
+  font-family: "Londrina Solid", cursive;
+  font-size: 38px;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 50px;
 }
